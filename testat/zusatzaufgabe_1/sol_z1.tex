@@ -4,3 +4,28 @@
 %Copyright (C) 2013, Daniel Winz
 
 %----------------------------------------
+
+\subsection{Lösung}
+Die Bestimmung der geografischen Breite kann über die Lage der Sterne bestimmt 
+werden. Da sich die Erde dreht bewegen sich die Sterne scheinbar in Richtung 
+der geografischen Länge. Daher kann die geografische Länge mit diesem Verfahren 
+nur bestimmt werden, wenn die momentane Lage der Erde bekannt ist. Dafür ist es 
+notwendig, die Uhrzeit an einem fixen Ort auf der Erde zu kennen. Bis ins 18. 
+Jahrhundert waren Uhren mit der notwendigen Genauigkeit nicht verfügbar. 
+
+Wird nun eine genaue Uhr mitgeführt, kann die Position der Sterne gemessen und 
+mit der berechneten Position für den Startort verglichen werden. Die Differenz 
+entspricht dabei der Differenz der geografischen Länge zum Startpunkt. 
+
+Soll bei einer Fahrt von London nach Jamaika, welche $40\frac{1}{2}$ Tage 
+dauert, die Abweichung weniger als $\frac{1}{2}$ Längengrad betragen, so muss 
+die Uhr folgende Genauigkeit aufweisen: 
+
+Die Erde dreht sich in 24 Stunden einmal um die eigene Achse. Dabei 
+überstreicht sie $360^\circ$. Ein Fehler von $\frac{1}{2}^\circ$ entspricht daher 
+einer Zeitdifferenz von 120 Sekunden. 
+\[ \frac{24h \cdot 3600\frac{s}{h}}{720} = 120 s \]
+Bei einer Reisezeit von $40\frac{1}{2}$ Tagen entspricht das einer relative 
+Genauigkeit von: 
+\[ \frac{120 s}{40.5 d \cdot 86400 \frac{s}{d}} = 34.29 \cdot 10^{-6} 
+= 0.0034\% \]
